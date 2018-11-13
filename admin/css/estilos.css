@@ -1,0 +1,120 @@
+@charset "utf-8";
+body {
+	
+	background: url(../images/IMG1.jpg)  fixed;
+
+	
+}
+@font-face{
+	font-family: "Fuente1";
+	src:url(./fonts/F1.otf);
+	
+}
+@font-face{
+	font-family: "Fuente2";
+	src:url(../fonts/F2.otf)format('opentype');
+	
+}
+#footer{
+	
+	background:#3956C5;
+	height: 30px;
+	padding: 0;
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+	color: black;
+	clear: both;
+	text-align: center;
+	
+
+}
+
+#contenido{
+	background: #F9F5F5;
+	background-color: /*#030303;*/ rgba(255, 255,255, 0.9);
+	min-height: 800px;
+	color:black;
+
+}
+#Busqueda{
+	margin-top: 25px;
+	margin-left: 4px;
+
+}
+#nav{
+	margin-top: -20px;
+	/*padding-top: 5px;*/
+	font-family: "Fuente2";
+	padding: 0;
+	margin: 0
+}
+.nombreH{
+	font-family: "Fuente2";
+	background-color: black;
+	color: white;
+	height: auto;
+	text-align: center;
+	padding: 0;
+	
+}
+#NombreE{
+	font-family: "Fuente2";
+}
+
+#tletra{
+	/*font-size: 30px;*/
+	margin-top: 17px;
+}
+.colorfondo{
+	color: blue;
+}
+#titulo{
+	padding: 20px;
+	color: #000;
+	background: #BAB5B5; 
+}
+#te{
+	margin-top: -5px;
+}
+#buscar{
+	margin-left: 305px;
+}
+#tablaB{
+	margin-left: 1px;
+}
+#formReg{
+	color: #fff;
+
+}
+#titulo{
+	padding: 20px;
+	color: #fff;
+}
+#file{
+	margin-left: 18px;
+	color: #fff;
+}
+#cliente{
+margin-left: 5px;
+}
+#btn{
+	margin-left: 18px;
+	margin-bottom: 10px;
+}
+#btn2{
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+#prods{
+	margin-left: -15px;
+}
+#empresa{
+	font-family: "Fuente1";
+}
+#enca{
+	width: 100%;
+	padding: 0;
+	min-height: 200px;
+	position: relative;
+	background: url('../images/enca.jpg') no-repeat center;
+	background-size: 100% 100%
+}
